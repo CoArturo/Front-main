@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest&display=swap');
+*
+{
+    font-family: 'Onest', sans-serif;
+}
+
+body
+{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    background-image: url("/Api/assets/pexels-valdemaras-d-1647962.jpg");
+    background-size: cover;
+}
+
+.container
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 600px;
+    padding: 25px;
+    background-color: #1f1f1f;
+    padding-bottom: 3.5rem;
+}
+
+.controles
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin: 2rem;
+    
+}
+.controles h2
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+}
+
+.inputs
+{
+    height: 2rem;
+    color: #ffff;
+    background-color: #1f1f1f;
+    border: none;
+    border-bottom: #fff 1px solid;
+    margin-bottom: 2.5rem;
+    width: 100%;
+    outline: none;
+    transition: ease-out all .2s;
+}
+
+.btn
+{
+    width: 100%;
+    padding: 18px;
+    background-color: rgb(199, 41, 41);
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 1.1rem;
+    transition: ease-out all .2s;
+}
+
+.inputs::placeholder
+{
+    color: #ffff;
+}
+
+.inputs:hover
+{
+    border-color: rgb(49, 151, 151);
+}
+
+.btn:hover
+{
+    opacity: .8;
+}
+
+.enlaces
+{
+    margin: 2rem;
+}
+
+a
+{
+    color: #e0d7d7;
+    text-decoration: none;
+    border: solid 1px #e0d7d7;
+    padding: 3px;
+    border-radius: 5px;
+}
