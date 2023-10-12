@@ -23,13 +23,13 @@ btnSubmit.addEventListener("click", () => {
         if (!response.ok) {
         throw new Error("No se pudo autenticar");
         }
-        return response.text(); // Suponiendo que el servidor devuelve un mensaje de éxito
+        return response.text(); 
     })
     .then(data => {
-        console.log("Autenticación exitosa:", data);
-        // Aquí puedes redirigir al usuario o realizar otras acciones
+        location.replace('../pages/mainmenu.html');
+
     })
     .catch(error => {
-        console.error("Error de autenticación:", error);
+        alert("Usuario o contraseña equivocado")
     });
 });

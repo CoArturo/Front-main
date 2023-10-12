@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest&display=swap');
+*
+{
+    font-family: 'Onest', sans-serif;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    background-image: url("/Api/assets/pexels-valdemaras-d-1647962.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+
+.container
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjetas
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+    height: auto;
+    display: flex;
+    padding: 30px;
+}
+
+.tarjeta
+{
+    background-color: #fff;
+    width: 300px;
+    height: 400px;
+    margin: 2rem;
+    overflow: hidden;
+    transition: ease-in all .2s;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* filter: blur(1px); */
+
+}
+
+.tarjeta:hover
+{
+    transform: scale(1.1);
+    filter: blur(0px);
+}
+
+.tarjeta a
+{
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    font-size: 3rem;
+    font-weight: bold;
+    color: transparent;
+    background-color: transparent;
+    transition: ease-in all .2s;
+    
+}
+
+.tarjeta a:hover
+{
+    color: rgb(255, 255, 255);
+}
+
+.t1
+{   
+    background-image: url("../assets/Sumadora.jpg");
+    background-position: -200px, 100px;
+}
+
+.t2
+{   
+    background-image: url("../assets/weather.jpg");
+    background-position: -200px, 100px;
+}
+
+.t2 a
+{
+    font-size: 2.5rem;
+}
+
+.t3
+{   
+    background-image: url("../assets/trade.jpg");
+}
+
+.enlaces
+{
+    margin: 2rem;
+}
+
+.enlaces a
+{
+    color: #e0d7d7;
+    text-decoration: none;
+    border: solid 1px #e0d7d7;
+    padding: 3px;
+    border-radius: 5px;
+}
+

@@ -19,7 +19,7 @@ btnSubmit.addEventListener("click", ()=>{
     })
     .then(data => {
       const cantidadPesosDominicanos = data.pesoDominicano;
-      console.log(`La cantidad en Pesos Dominicanos es: ${cantidadPesosDominicanos}`);
+      cajaResultado.value = data.pesoDominicano; 
     })
     .catch(error => {
       console.error('Error:', error);

@@ -3,24 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/divisas.css">
+    <link rel="stylesheet" href="../styles/sumadora.css">
     <title>Document</title>
 </head>
 <body>
     <div class="container">
         <div class="login">
             <div class="controles">
-                <h2>D I V I S A S</h2>
-                <input type="text" id="divisa" placeholder="DOLARES" class="inputs nombre">
-                <input type="text" id="resultado" placeholder="PESOS" class="inputs clave" disabled>
+                <h2>S U M A D O R A</h2>
+                <input type="text" id="numero1" placeholder="NUMERO" class="inputs nombre">
+                <input type="text" id="numero2" placeholder="NUMERO" class="inputs nombre">
+                <input type="text" id="resultado" placeholder="RESULTADO" class="inputs clave" disabled>
                 <button id="btn-submit" class="btn">CALCULAR</button>
             </div>
         </div>
-
         <div class="enlaces">
             <small><a href="../pages/mainmenu.html">M E N U</a></small>
         </div>
     </div>
-    <script src="../scripts/divisas.js" type="module"></script>
+    
+
+    <div id="output"></div>
+    <script src="../scripts/sumadora.js" type="module"></script>
 </body>
 </html>
