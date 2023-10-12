@@ -9,7 +9,7 @@ const cajaResultado = document.querySelector("#resultado")
 btnSubmit.addEventListener("click", ()=>{
 
   let num1 = cajaNumero1.value;
-  let num2 = cajaNumero1.value;
+  let num2 = cajaNumero2.value;
   num1 = parseInt(num1); 
   num2 = parseInt(num2); 
 
